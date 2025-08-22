@@ -23,6 +23,7 @@ export type FontFamily =
   danger: HexColor,
   yellow: HexColor,
   green: HexColor,
+  red: HexColor,
 }
  
 export interface TypographyStyle {

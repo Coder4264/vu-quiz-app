@@ -11,4 +11,5 @@ export const colors: Colors = {
   danger: '#ff0000',
   yellow:"#ffdf20",
   green: '#29c129ff',
+  red: '#bd2525ff',
 }

@@ -8,6 +8,7 @@ import Quiz from '../screens/quiz/Quiz';
 import Result from '../screens/result/Result';
 import chapterStack from './chapterStack';
 import quizStack from './quizStack';
+import ResultBoard from '../screens/result-board/ResultBoard';
 
 const { width } = Dimensions.get('window');
 const Tab = createBottomTabNavigator();
@@ -82,20 +83,20 @@ export default function BottomNavigation() {
           ),
         }}
       />
-      {/* <Tab.Screen 
-        name="Result" 
-        component={Result} 
+       <Tab.Screen 
+        name="Result Board" 
+        component={ResultBoard} 
         
         options={{
           tabBarIcon: ({ focused }) => (
             <TabBarItem 
               focused={focused}
               iconName={focused ? "bar-chart" : "bar-chart-outline"}
-              label="Result"
+              label="Results"
             />
           ),
         }}
-      /> */}
+      /> 
     </Tab.Navigator>
   );
 }
